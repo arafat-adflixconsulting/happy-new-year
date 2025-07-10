@@ -88,3 +88,39 @@
     height: 1163px;
     margin: 120px auto;
   }
+
+  /* newsletter section  */
+
+  main .newslatter-section{
+    width: 1320px;
+    height: 616px;
+    background-color:rgba(255, 0, 0, 0.05) ;
+    justify-items: center;
+    margin: 120px auto;
+    border-radius: 15px;
+  }
+
+  .newslatter-section img{
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+    margin-bottom:40px ;
+  }
+  .newslatter-content h1{
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 22px;
+  }
+
+  .newslatter-content{
+    justify-items: center;
+    width: 896px;
+    height: 146px;
+    margin-bottom: 48px;
+  }
+.subscribe input{
+    width: 646px;
+    height: 72px;
+    border-radius: 16px;
+    margin-bottom: 80px;
+}
