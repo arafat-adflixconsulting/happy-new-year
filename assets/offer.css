@@ -9,7 +9,8 @@
 /* header section  */
 .banner-container{
     position: relative;
-    max-width: 1320px;
+    width:100%;
+    max-width: 1140px;
     height: 600px;
     border-radius: 16px;
     margin: 0 auto;
@@ -18,7 +19,7 @@
     overflow: hidden;
 }
 
-.banner-container img {
+/* .banner-container img {
     width: 100%;
     display: block;
   }
@@ -28,11 +29,61 @@
     position: absolute;
     text-align: center;
     color: red;
-    transform: translate(100%);
+    transform: translate(-50%, -50%);
   }
 
   .text-overlay h4{
+    position: absolute;
+    font-size: 32px;
+    margin: 0;
+  }
+  .text-overlay h1{
+    position: absolute;
     font-size: 32px;
     font-weight:400px;
-    margin-top: 117px;
+   margin: 0.5em;
+  }
+  .text-overlay h2{
+    position: absolute;
+    font-size: 32px;
+    font-weight:400px;
+    margin: 1.5em;
+  } */
+
+  /* - - - Product Section - - - */
+
+  main .best-gift{
+    color: red;
+    font-variant: small-caps;
+  }
+
+  main h1{
+    font-size: 48px;
+    color: #070211;
+    margin-top: 18px;
+  }
+
+  main p{
+    color: #070211;
+    font-size: 20px;
+    font-weight: 400px;
+    margin-top: 22px;
+  }
+
+  main .product-container{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 24px;
+    border-radius: 16px;
+    margin-top: 48px;
+
+  }
+
+  main .product-section{
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-left: 140px;
+    margin-right: 140px;
+    max-width: 1140px;
+
   }
